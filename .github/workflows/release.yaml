@@ -3,6 +3,7 @@ on:
     branches:
       - main
 permissions:
+  issues: write
   contents: write
   pull-requests: write
 name: release-please
